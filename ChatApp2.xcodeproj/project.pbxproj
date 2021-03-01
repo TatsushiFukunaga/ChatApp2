@@ -14,6 +14,8 @@
 		436F570A25E39A8A00B665DB /* ChatList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436F570925E39A8A00B665DB /* ChatList.storyboard */; };
 		436F570E25E39B2800B665DB /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436F570D25E39B2800B665DB /* ChatListViewController.swift */; };
 		43C5654625ED186E0084AC98 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C5654525ED186E0084AC98 /* UIColor-Extension.swift */; };
+		43C5654D25ED26560084AC98 /* ChatRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C5654C25ED26560084AC98 /* ChatRoom.storyboard */; };
+		43C5655025ED27220084AC98 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C5654F25ED27220084AC98 /* ChatRoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		436F570925E39A8A00B665DB /* ChatList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatList.storyboard; sourceTree = "<group>"; };
 		436F570D25E39B2800B665DB /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		43C5654525ED186E0084AC98 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		43C5654C25ED26560084AC98 /* ChatRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatRoom.storyboard; sourceTree = "<group>"; };
+		43C5654F25ED27220084AC98 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				436F570D25E39B2800B665DB /* ChatListViewController.swift */,
+				43C5654F25ED27220084AC98 /* ChatRoomViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				436F570925E39A8A00B665DB /* ChatList.storyboard */,
+				43C5654C25ED26560084AC98 /* ChatRoom.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 				436F570125E399ED00B665DB /* LaunchScreen.storyboard in Resources */,
 				436F56FE25E399ED00B665DB /* Assets.xcassets in Resources */,
 				436F570A25E39A8A00B665DB /* ChatList.storyboard in Resources */,
+				43C5654D25ED26560084AC98 /* ChatRoom.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +165,7 @@
 			files = (
 				436F56F525E399E900B665DB /* AppDelegate.swift in Sources */,
 				43C5654625ED186E0084AC98 /* UIColor-Extension.swift in Sources */,
+				43C5655025ED27220084AC98 /* ChatRoomViewController.swift in Sources */,
 				436F570E25E39B2800B665DB /* ChatListViewController.swift in Sources */,
 				436F56F725E399E900B665DB /* SceneDelegate.swift in Sources */,
 			);
